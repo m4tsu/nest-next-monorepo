@@ -50,6 +50,7 @@
   "license": "ISC",
   "private": true,
   "workspaces": [
-    "packages/api"
+    "packages/api",
+    "packages/web"
   ]
 }
