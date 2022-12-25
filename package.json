@@ -41,10 +41,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "typecheck": "tsc -p . --noEmit",
-    "lint": "eslint packages/**/*.ts",
-    "lint:fix": "eslint packages/**/*.ts --fix",
-    "format": "prettier --check **/*.{ts,tsx,js,jsx,json,md}",
-    "format:fix": "prettier --write **/*.{ts,tsx,js,jsx,json,md}"
+    "lint": "npm run lint -ws --if-present",
+    "lint:fix": "npm run lint:fix -ws --if-present",
+    "format": "npm run format --ws --if-present",
+    "format:fix": "npm run format:fix --ws --if-present"
   },
   "author": "",
   "license": "ISC",
