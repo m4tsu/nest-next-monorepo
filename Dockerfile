@@ -4,6 +4,7 @@ USER node
 WORKDIR /workspace
 
 # COPY package*.json ./
-# RUN npm ci
+# # packages/ 以下の package*.json は？
+# RUN npm install
 
 # COPY . .
