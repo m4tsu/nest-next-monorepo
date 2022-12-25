@@ -41,8 +41,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "typecheck": "tsc -p . --noEmit",
-    "lint": "eslint",
-    "lint:fix": "eslint --fix",
+    "lint": "eslint packages/**/*.ts",
+    "lint:fix": "eslint packages/**/*.ts --fix",
     "format": "prettier --check **/*.{ts,tsx,js,jsx,json,md}",
     "format:fix": "prettier --write **/*.{ts,tsx,js,jsx,json,md}"
   },
